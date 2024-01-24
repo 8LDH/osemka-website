@@ -1,7 +1,7 @@
   .image-container {
-    display: flex;
-    justify-content: center; /* Center align child elements horizontally */
-    align-items: center; /* Center align child elements vertically */
+   
+     /* Center align child elements horizontally */
+     /* Center align child elements vertically */
   }
   
   /* Set a fixed height for the images (adjust the value as needed) */

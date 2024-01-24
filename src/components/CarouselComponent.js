@@ -1,5 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/CarouselComponent.css";
+import { Container } from "react-bootstrap";
 
 function importAll(r) {
   return r.keys().map(r);
@@ -11,6 +13,7 @@ const images = importAll(
 
 function CarouselComponent() {
   return (
+    <Container className="carousel-container">
     <Carousel>
       {images.map((image, index) => (
         <Carousel.Item key={index}>
@@ -22,6 +25,7 @@ function CarouselComponent() {
         </Carousel.Item>
       ))}
     </Carousel>
+    </Container>
   );
 }
 
