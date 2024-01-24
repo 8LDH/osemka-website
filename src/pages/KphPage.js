@@ -1,11 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import KphComponent from "../components/KphComponent";
 
 function KphPage() {
-  return (
-    <div>
-      <h1>Kph</h1>
-    </div>
-  );
+  return <KphComponent />;
 }
 
 export default KphPage;

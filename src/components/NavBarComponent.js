@@ -1,18 +1,33 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import logo from "../images/logo.png";
+import "../styles/NavBarComponent.css";
 
 const NavbarComponent = () => {
   return (
-    <div>
-      <header className="page-header">
-        <h1>Ósma Londyńska Drużyna Harcerzy</h1>
-        <small>im. Stefana Starzyńskiego</small>
-      </header>
-      <Navbar className = "navbar navbar-dark bg-dark" expand="lg">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      bg="dark"
+      variant="dark"
+      className="navbar-container"
+    >
+      <Container>
+        <Navbar.Brand href="/">
+          <img
+            alt=""
+            src={logo}
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+          />{' '}
+          8LDH
+        </Navbar.Brand>
+
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Item>
               <NavLink
@@ -93,8 +108,8 @@ const NavbarComponent = () => {
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
-    </div>
+      </Container>
+    </Navbar>
   );
 };
 

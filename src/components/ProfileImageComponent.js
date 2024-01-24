@@ -10,7 +10,7 @@ function ProfileImageComponent() {
   return (
     <Container className="text-center">
       <Row>
-        <Col xs={12} md={6} className="mb-3">
+        <Col xs={12} md={6}>
           <Figure>
             <Figure.Image src={Wasiuk} thumbnail />
             <Figure.Caption>
@@ -19,7 +19,7 @@ function ProfileImageComponent() {
             </Figure.Caption>
           </Figure>
         </Col>
-        <Col xs={12} md={6} className="mb-3">
+        <Col xs={12} md={6}>
           <Figure>
             <Figure.Image src={Bart} thumbnail />
             <Figure.Caption>

@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  display: flex;
+  width: 100%;
+  align-items: stretch;
 }
 
 .App-logo {
@@ -13,18 +15,6 @@
   }
 }
 
-.App-header {
-  font-size: calc(10px + 2vmin);
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 @media (max-width: 767px) {
   .App-header {
     font-size: calc(12px + 2vmin); /* Slightly larger font for mobile */
@@ -33,16 +23,6 @@
 
 .App-link {
   color: #61dafb;
-}
-
-.app-container {
-  padding-left: 500px;
-  padding-right: 500px;
-  background: hsla(186, 33%, 94%, 1);
-  background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
-  background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
-  background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
 }
 
 @keyframes App-logo-spin {
@@ -54,3 +34,10 @@
   }
 }
 
+.mt-from-navbar {
+  margin-top: 20px; /* Adjust this value as needed */
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}

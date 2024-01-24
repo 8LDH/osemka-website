@@ -1,9 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import DocumentsCardComponent from "../components/DocumentsCardComponent";
 
 function DocumentsPage() {
   return (
     <div>
-      <h1>Dokumenty</h1>
+      <DocumentsCardComponent />
     </div>
   );
 }

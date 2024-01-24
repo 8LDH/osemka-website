@@ -4,38 +4,7 @@ body {
   font-family: "Libre Franklin", sans-serif;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
 
-.page-header {
-  background-color: #3043af75;
-  text-align: center;
-  padding: 20px 10px;
-}
-
-.carousel-inner > .carousel-item {
-  height: 100%;
-  width: 100%;
-  padding-top: 50px;
-  border-radius: 20px;
-  
-}
-
-/* For mobile devices */
-@media (max-width: 767px) {
-  .carousel-inner > .carousel-item > img {
-    height: auto; /* Adjust height for mobile */
-  }
-}
-
-.carousel-inner > .carousel-item > img {
-  height: 800px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-}
 
 .aspect-ratio-box {
   position: relative;
