@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { storage } from "../firebase/config";
 import { ref, listAll, getDownloadURL } from "firebase/storage";
-import { Modal, ProgressBar} from "react-bootstrap";
+import { Modal, ProgressBar } from "react-bootstrap";
 import { ResponsiveMasonry } from "react-responsive-masonry"; // Import ResponsiveMasonry
 import Masonry from "react-responsive-masonry"; // Import Masonry
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/ImageGalleryComponent.css";
 
-const ImageGalleryComponent = () => {
+const ImageGalleryComponent = ({ folderPath }) => {
   const [images, setImages] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedImage, setSelectedImage] = useState(null);
@@ -16,7 +16,7 @@ const ImageGalleryComponent = () => {
   useEffect(() => {
     const fetchImages = async () => {
       let imageUrls = [];
-      const storageRef = ref(storage, "images/Obóz 2022");
+      const storageRef = ref(storage, "images/" + folderPath);
       const snapshot = await listAll(storageRef);
       for (let imageRef of snapshot.items) {
         const url = await getDownloadURL(imageRef);
@@ -51,13 +51,13 @@ const ImageGalleryComponent = () => {
   return (
     <div>
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
-        <Masonry gutter = "10px">
+        <Masonry gutter="10px">
           {images.map((url, index) => (
             <img
               key={index}
               src={url}
               alt=""
-              style={{ width: "100%", display: "block"}}
+              style={{ width: "100%", display: "block" }}
               onClick={() => handleImageClick(url)}
             />
           ))}
@@ -70,8 +70,7 @@ const ImageGalleryComponent = () => {
           )}
         </Modal.Body>
       </Modal>
-      </div>
-   
+    </div>
   );
 };
 

@@ -38,19 +38,19 @@ function KomendaProfileComponent() {
         </Col>
       </Row>
       <Row>
-        <Col xs={4} md={4}>
+        <Col xs={12} md={4}>
           <Figure>
             <Figure.Image src={Wasiuk} thumbnail />
             <Figure.Caption>Wódz Zuchów</Figure.Caption>
           </Figure>
         </Col>
-        <Col xs={4} md={4}>
+        <Col xs={12} md={4}>
           <Figure>
             <Figure.Image src={Milosz} thumbnail />
             <Figure.Caption>Drużynowy Wędrowników</Figure.Caption>
           </Figure>
         </Col>
-        <Col xs={4} md={4}>
+        <Col xs={12} md={4}>
           <Figure>
             <Figure.Image src={Jan} thumbnail />
             <Figure.Caption>Webmajster</Figure.Caption>
@@ -58,30 +58,31 @@ function KomendaProfileComponent() {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+        <Col xs={12} sm={6} md={4} lg={3}>
           <Figure>
             <Figure.Image src={Jacek} thumbnail />
             <Figure.Caption>Przyboczny</Figure.Caption>
           </Figure>
         </Col>
-        <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+        <Col xs={12} sm={6} md={4} lg={3}>
           <Figure>
             <Figure.Image src={Krystian} thumbnail />
             <Figure.Caption>Przyboczny</Figure.Caption>
           </Figure>
         </Col>
-        <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+        <Col xs={12} sm={6} md={4} lg={3}>
           <Figure>
             <Figure.Image src={Wuni} thumbnail />
             <Figure.Caption>Przyboczny</Figure.Caption>
           </Figure>
         </Col>
-        <Col xs={12} sm={6} md={4} lg={3} xl={2}>
+        <Col xs={12} sm={6} md={4} lg={3}>
           <Figure>
             <Figure.Image src={Szymon} thumbnail />
             <Figure.Caption>Przyboczny</Figure.Caption>
           </Figure>
         </Col>
+        {/* Additional columns can be added here following the same pattern */}
       </Row>
     </Container>
   );
