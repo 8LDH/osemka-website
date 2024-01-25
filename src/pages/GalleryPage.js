@@ -1,12 +1,15 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import ImageGalleryComponent from '../components/ImageGalleryComponent';
+import React from "react";
+import { useParams } from "react-router-dom";
+import ImageGalleryComponent from "../components/ImageGalleryComponent";
 
-function GalleryPage() {
-    return (
-        <div>
-            <ImageGalleryComponent />
-        </div>
-    );
-}
+const GalleryPage = () => {
+  const { folderPath } = useParams();
+
+  return (
+    <div>
+      <ImageGalleryComponent folderPath={folderPath} />
+    </div>
+  );
+};
 
 export default GalleryPage;

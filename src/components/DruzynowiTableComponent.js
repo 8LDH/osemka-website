@@ -16,11 +16,11 @@ function DruzynowiTableComponent() {
           <td>Jan Andrzejczyk Pwd.</td>
         </tr>
         <tr>
-          <td>2018 - 2018</td>
+          <td>2016 - 2018</td>
           <td>Bartłomiej Rój Pwd.</td>
         </tr>
         <tr>
-          <td>2012 - Dzisiaj</td>
+          <td>2012 - 2016</td>
           <td>Dawid Rój Pwd.</td>
         </tr>
         <tr>
@@ -41,7 +41,7 @@ function DruzynowiTableComponent() {
         </tr>
         <tr>
           <td>1999 - 2000</td>
-          <td>Adam Kotulecki Cw.</td>
+          <td>Adam Kotulecki Ćw.</td>
         </tr>
         <tr>
           <td>1997 - 1999</td>
@@ -53,7 +53,7 @@ function DruzynowiTableComponent() {
         </tr>
         <tr>
           <td>1993 - 1995</td>
-          <td>Genio Pozniak Cw.</td>
+          <td>Genio Pozniak Ćw.</td>
         </tr>
         <tr>
           <td>1992 - 1993</td>
