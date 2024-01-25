@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/osemka-website/static/css/main.9bc4c377.css",
+    "main.js": "/osemka-website/static/js/main.660a4214.js",
+    "static/js/787.d63c0809.chunk.js": "/osemka-website/static/js/787.d63c0809.chunk.js",
+    "static/media/IMG_2116.JPEG": "/osemka-website/static/media/IMG_2116.3e61a2eba3f75471e471.JPEG",
+    "static/media/IMG_2097.JPEG": "/osemka-website/static/media/IMG_2097.3d7f1f4677b125b25121.JPEG",
+    "static/media/IMG_2168.JPEG": "/osemka-website/static/media/IMG_2168.95720551fe2e49078d61.JPEG",
+    "static/media/IMG_2119.JPEG": "/osemka-website/static/media/IMG_2119.b1ca9629627ba0f3651d.JPEG",
+    "static/media/IMG_2188.JPEG": "/osemka-website/static/media/IMG_2188.f2c5b5fde0629d47cdff.JPEG",
+    "static/media/IMG_2065.JPEG": "/osemka-website/static/media/IMG_2065.8dbead15376ca287b18c.JPEG",
+    "static/media/IMG_2267.JPEG": "/osemka-website/static/media/IMG_2267.753bf1fce0b7bad7025f.JPEG",
+    "static/media/IMG_2115.JPEG": "/osemka-website/static/media/IMG_2115.64da94d222ce7bc56391.JPEG",
+    "static/media/IMG_2238.JPEG": "/osemka-website/static/media/IMG_2238.c0aa5a38743e96165f56.JPEG",
+    "static/media/IMG_2165.JPEG": "/osemka-website/static/media/IMG_2165.72d26df4b62d1474228b.JPEG",
+    "static/media/IMG_2184.JPEG": "/osemka-website/static/media/IMG_2184.0c6083e926e3ae03af86.JPEG",
+    "static/media/IMG_2136.JPEG": "/osemka-website/static/media/IMG_2136.19b80246fff1385735c5.JPEG",
+    "static/media/IMG_2067.JPEG": "/osemka-website/static/media/IMG_2067.e8e99327d108baadb322.JPEG",
+    "static/media/IMG_2250.JPEG": "/osemka-website/static/media/IMG_2250.5a650fedff7e721d10d5.JPEG",
+    "static/media/IMG_2254.JPEG": "/osemka-website/static/media/IMG_2254.49057b2c1757d3d1208e.JPEG",
+    "static/media/IMG_2137.JPEG": "/osemka-website/static/media/IMG_2137.5dada0e429f413a56a14.JPEG",
+    "static/media/Jacek.jpg": "/osemka-website/static/media/Jacek.14df7c24d44e09b47a68.jpg",
+    "static/media/Krystian.jpg": "/osemka-website/static/media/Krystian.14df7c24d44e09b47a68.jpg",
+    "static/media/Milosz.jpg": "/osemka-website/static/media/Milosz.14df7c24d44e09b47a68.jpg",
+    "static/media/Szymon.jpg": "/osemka-website/static/media/Szymon.14df7c24d44e09b47a68.jpg",
+    "static/media/Wasiuk.jpg": "/osemka-website/static/media/Wasiuk.14df7c24d44e09b47a68.jpg",
+    "static/media/Wuni.jpg": "/osemka-website/static/media/Wuni.14df7c24d44e09b47a68.jpg",
+    "static/media/Bart.jpg": "/osemka-website/static/media/Bart.640a14a8f9f463a123d2.jpg",
+    "static/media/Jan.jpg": "/osemka-website/static/media/Jan.ad830a6f868ed4327b8a.jpg",
+    "static/media/logo.png": "/osemka-website/static/media/logo.1b467eb29664cb005d13.png",
+    "static/media/harcownicy1.png": "/osemka-website/static/media/harcownicy1.afb43bbb6f6c417b8031.png",
+    "index.html": "/osemka-website/index.html",
+    "main.9bc4c377.css.map": "/osemka-website/static/css/main.9bc4c377.css.map",
+    "main.660a4214.js.map": "/osemka-website/static/js/main.660a4214.js.map",
+    "787.d63c0809.chunk.js.map": "/osemka-website/static/js/787.d63c0809.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bc4c377.css",
+    "static/js/main.660a4214.js"
+  ]
+}
