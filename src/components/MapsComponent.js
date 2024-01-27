@@ -3,10 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function MapsComponent() {
   return (
-    <div className="map-embed">
+    <div className="map-embed mb-4">
       <iframe
         title="Troop Location"
-        width="600"
+        width="100%"
         height="450"
         style={{ border: 0 }}
         loading="lazy"

@@ -6,6 +6,7 @@ function KphPage() {
   return (
     <>
       <ScrollToTop />
+      <h1>Koło Przyjaciół Harcerstwa</h1>
       <KphComponent />
     </>
   );

@@ -22,7 +22,7 @@ function LinksCardComponent() {
               </Card.Text>
               <div className="mb-2">
                 <OverlayTrigger
-                  placement="bottom"
+                  placement="right"
                   overlay={
                     <Tooltip>
                       Związek Harcerstwa Polskiego poza granicami kraju
@@ -41,7 +41,7 @@ function LinksCardComponent() {
               </div>
               <div className="mb-2">
                 <OverlayTrigger
-                  placement="bottom"
+                  placement="right"
                   overlay={
                     <Tooltip>
                       Związek Harcerstwa Polskiego Główna Kwatera Harcerzy

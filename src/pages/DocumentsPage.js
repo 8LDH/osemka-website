@@ -6,6 +6,7 @@ function DocumentsPage() {
   return (
     <div>
       <ScrollToTop />
+      <h1>Dokumenty</h1>
       <DocumentsCardComponent />
     </div>
   );

@@ -6,6 +6,7 @@ function CalendarPage() {
   return (
     <div>
       <ScrollToTop />
+      <h1>Kalendarz</h1>
       <CalendarComponent />
     </div>
   );

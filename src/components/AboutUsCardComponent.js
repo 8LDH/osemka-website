@@ -11,7 +11,6 @@ function HomeCardComponent() {
           <div className="p-3">
             <Card className="p-3">
               <Card.Body>
-                <Card.Title>Coś o nas!</Card.Title>
                 <Card.Text>
                   Ósemka powstała w 1959 roku na terenach Północno-Zachodniego
                   Londynu, przy Parafii Matki Bożej Miłosierdzia na Willesden

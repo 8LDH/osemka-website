@@ -30,3 +30,9 @@
     display: none;
   }
 }
+
+@media (max-width: 550px) {
+  .responsive-iframe-container.small-container {
+    padding-bottom: 150%; /* Increase this value to make the height taller */
+  }
+}

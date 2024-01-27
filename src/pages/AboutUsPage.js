@@ -12,6 +12,7 @@ function AboutUsPage() {
   return (
     <div>
       <ScrollToTop />
+      <h1>O nas</h1>
       <AboutUsCardComponent />
       <div className="image-container">
         <ProfileImageComponent className="centered-image" />
