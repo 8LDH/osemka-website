@@ -6,6 +6,7 @@ function LinksPage() {
   return (
     <>
       <ScrollToTop />
+      <h1>Linki</h1>
       <LinksCardComponent />
     </>
   );

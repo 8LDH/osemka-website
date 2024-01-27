@@ -24,6 +24,7 @@ const GalleryAlbumPage = () => {
   return (
     <div>
       <ScrollToTop />
+      <h1>Galeria</h1>
       <ImageGalleryAlbumComponent folders={folders} />
     </div>
   );

@@ -1,9 +1,4 @@
-  .image-container {
-   
-     /* Center align child elements horizontally */
-     /* Center align child elements vertically */
-  }
-  
+ 
   /* Set a fixed height for the images (adjust the value as needed) */
   .image-container img {
     height: 300px; /* Adjust the height as needed */

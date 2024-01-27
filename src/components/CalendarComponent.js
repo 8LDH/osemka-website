@@ -5,7 +5,6 @@ const CalendarComponent = () => {
   return (
     <div>
       <div className="responsive-iframe-container big-container">
-        <h1>Kalendarz</h1>
         <iframe
           src="https://calendar.google.com/calendar/embed?height=800&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FLondon&hl=pl&src=OGthbGRoQGdtYWlsLmNvbQ&src=ZW4udWsjaG9saWRheUBncm91cC52LmCnhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%230B8043"
           frameBorder="0"
