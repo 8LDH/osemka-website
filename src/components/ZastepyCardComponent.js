@@ -1,40 +1,48 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Row, Col } from "react-bootstrap";
+import "../styles/LinksCardComponentStyles.css"; // Import your custom CSS
 
 function ZastepyCardComponent() {
   return (
-    <div className="d-flex justify-content-around">
-      <Card style={{ width: "20rem" }}>
-        <Card.Body>
-          <Card.Title>Zastęp 1</Card.Title>
-          <Card.Text>
-            Zastepowy: Adam Makarewicz Ćw. <br />
-            Pod-zastepowy: Kacper Kowalski Ćw.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-
-      <Card style={{ width: "20rem" }}>
-        <Card.Body>
-          <Card.Title>Zastęp 2</Card.Title>
-          <Card.Text>
-            Zastepowy: Adam Makarewicz Ćw. <br />
-            Pod-zastepowy: Kacper Kowalski Ćw.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-
-      <Card style={{ width: "20rem" }}>
-        <Card.Body>
-          <Card.Title>Zastęp 3</Card.Title>
-          <Card.Text>
-            Zastepowy: Adam Makarewicz Ćw. <br />
-            Pod-zastepowy: Kacper Kowalski Ćw.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </div>
+    <Container className="text-center">
+      <Row>
+        <Col xs={12} md={4}>
+          <Card className="mb-4">
+            <Card.Body>
+              <Card.Title className="card-title">Zastęp Zośka</Card.Title>
+              <Card.Text>
+                Zastepowy: Adam Makarewicz Ćw. <br />
+                Pod-zastepowy: Michał Wasiuk Wyw.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col xs={12} md={4}>
+          <Card className="mb-4">
+            <Card.Body>
+              <Card.Title className="card-title">Zastęp Alek</Card.Title>
+              <Card.Text>
+                Zastepowy: Aleks Ugo Ćw. <br />
+                Pod-zastepowy: Gabryś Dan Wyw.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col xs={12} md={4}>
+          <Card className="mb-4">
+            <Card.Body>
+              <Card.Title className="card-title">Zastęp Rudy</Card.Title>
+              <Card.Text>
+                Zastepowy: Łukasz Sadowski Ćw. <br />
+                Pod-zastepowy: Antoś Kaptur Mł.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

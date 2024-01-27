@@ -1,10 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import ScrollToTop from "../components/ScrollToTop";
+import LinksCardComponent from "../components/LinksCardComponent";
 
 function LinksPage() {
   return (
-    <div>
-      <h1>Linki</h1>
-    </div>
+    <>
+      <ScrollToTop />
+      <LinksCardComponent />
+    </>
   );
 }
 

@@ -35,9 +35,10 @@
 }
 
 .mt-from-navbar {
-  margin-top: 20px; /* Adjust this value as needed */
+  margin-top: 20px; /* Gap between navbar and content */
 }
 
 body {
   font-family: "Nunito", sans-serif;
+  font-size: larger;
 }
