@@ -4,10 +4,14 @@ import ProfileImageComponent from "../components/ProfileImageComponent";
 import "../styles/ProfileImageStyles.css";
 import DruzynowiTableComponent from "../components/DruzynowiTableComponent";
 import SzczepowiTableComponent from "../components/SzczepowiTableComponent";
+import { useEffect } from "react";
+import ScrollToTop from "../components/ScrollToTop";
 
 function AboutUsPage() {
+  useEffect(() => window.scrollTo({ top: 0, behavior: "smooth" }), []);
   return (
     <div>
+      <ScrollToTop />
       <AboutUsCardComponent />
       <div className="image-container">
         <ProfileImageComponent className="centered-image" />

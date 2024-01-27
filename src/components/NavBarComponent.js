@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -6,13 +6,19 @@ import logo from "../images/logo.png";
 import "../styles/NavBarComponent.css";
 
 const NavbarComponent = () => {
+  const [expanded, setExpanded] = useState(false);
+
+  const handleNavClose = () => {
+    setExpanded(false);
+  };
+
   return (
     <Navbar
       collapseOnSelect
       expand="lg"
-      bg="dark"
       variant="dark"
       className="navbar-container"
+      expanded={expanded} // Place it here on the Navbar component
     >
       <Container>
         <Navbar.Brand href="/">
@@ -25,7 +31,10 @@ const NavbarComponent = () => {
           />
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          onClick={() => setExpanded(!expanded)}
+        />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Item>
@@ -33,6 +42,7 @@ const NavbarComponent = () => {
                 to="/glowna-strona"
                 className="nav-link"
                 activeClassName="active"
+                onClick={handleNavClose}
               >
                 Główna Strona
               </NavLink>
@@ -42,6 +52,7 @@ const NavbarComponent = () => {
                 to="/o-nas"
                 className="nav-link"
                 activeClassName="active"
+                onClick={handleNavClose}
               >
                 Coś O Nas
               </NavLink>
@@ -51,6 +62,7 @@ const NavbarComponent = () => {
                 to="/druzyna"
                 className="nav-link"
                 activeClassName="active"
+                onClick={handleNavClose}
               >
                 Nasza Drużyna
               </NavLink>
@@ -60,6 +72,7 @@ const NavbarComponent = () => {
                 to="/kalendarz"
                 className="nav-link"
                 activeClassName="active"
+                onClick={handleNavClose}
               >
                 Kalendarz
               </NavLink>
@@ -69,6 +82,7 @@ const NavbarComponent = () => {
                 to="/galeria"
                 className="nav-link"
                 activeClassName="active"
+                onClick={handleNavClose}
               >
                 Galeria
               </NavLink>
@@ -78,12 +92,18 @@ const NavbarComponent = () => {
                 to="/dokumenty"
                 className="nav-link"
                 activeClassName="active"
+                onClick={handleNavClose}
               >
                 Dokumenty
               </NavLink>
             </Nav.Item>
             <Nav.Item>
-              <NavLink to="/kph" className="nav-link" activeClassName="active">
+              <NavLink
+                to="/kph"
+                className="nav-link"
+                activeClassName="active"
+                onClick={handleNavClose}
+              >
                 KPH
               </NavLink>
             </Nav.Item>
@@ -92,6 +112,7 @@ const NavbarComponent = () => {
                 to="/linki"
                 className="nav-link"
                 activeClassName="active"
+                onClick={handleNavClose}
               >
                 Linki
               </NavLink>
@@ -101,6 +122,7 @@ const NavbarComponent = () => {
                 to="/kontakty"
                 className="nav-link"
                 activeClassName="active"
+                onClick={handleNavClose}
               >
                 Kontakty
               </NavLink>

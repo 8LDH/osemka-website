@@ -8,7 +8,7 @@ function importAll(r) {
 }
 
 const images = importAll(
-  require.context("../images", false, /\.(png|jpe?g|JPE?G|svg)$/)
+  require.context("../images/carousel", false, /\.(png|jpe?g|JPE?G|svg)$/)
 );
 
 function CarouselComponent() {

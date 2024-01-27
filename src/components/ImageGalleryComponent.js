@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import { storage } from "../firebase/config";
 import { ref, listAll, getDownloadURL } from "firebase/storage";
 import { Modal, ProgressBar } from "react-bootstrap";
-import { ResponsiveMasonry } from "react-responsive-masonry"; // Import ResponsiveMasonry
-import Masonry from "react-responsive-masonry"; // Import Masonry
+import Masonry from "react-responsive-masonry";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/ImageGalleryComponent.css";
 
@@ -50,7 +49,6 @@ const ImageGalleryComponent = ({ folderPath }) => {
 
   return (
     <div>
-      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
         <Masonry gutter="10px">
           {images.map((url, index) => (
             <img
@@ -62,7 +60,6 @@ const ImageGalleryComponent = ({ folderPath }) => {
             />
           ))}
         </Masonry>
-      </ResponsiveMasonry>
       <Modal show={showModal} onHide={handleCloseModal} centered size="xl">
         <Modal.Body>
           {selectedImage && (
