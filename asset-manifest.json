@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/osemka-website/static/css/main.c5a002c0.css",
-    "main.js": "/osemka-website/static/js/main.aedd373f.js",
+    "main.css": "/osemka-website/static/css/main.d8b8f9d3.css",
+    "main.js": "/osemka-website/static/js/main.572aa777.js",
     "static/js/787.d63c0809.chunk.js": "/osemka-website/static/js/787.d63c0809.chunk.js",
     "static/media/IMG_2116.JPEG": "/osemka-website/static/media/IMG_2116.3e61a2eba3f75471e471.JPEG",
     "static/media/IMG_2097.JPEG": "/osemka-website/static/media/IMG_2097.3d7f1f4677b125b25121.JPEG",
@@ -33,12 +33,12 @@
     "static/media/cwik.png": "/osemka-website/static/media/cwik.1976be40281534ae800d.png",
     "static/media/sprawnosci.png": "/osemka-website/static/media/sprawnosci.3ac3deda1b8180ada199.png",
     "index.html": "/osemka-website/index.html",
-    "main.c5a002c0.css.map": "/osemka-website/static/css/main.c5a002c0.css.map",
-    "main.aedd373f.js.map": "/osemka-website/static/js/main.aedd373f.js.map",
+    "main.d8b8f9d3.css.map": "/osemka-website/static/css/main.d8b8f9d3.css.map",
+    "main.572aa777.js.map": "/osemka-website/static/js/main.572aa777.js.map",
     "787.d63c0809.chunk.js.map": "/osemka-website/static/js/787.d63c0809.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5a002c0.css",
-    "static/js/main.aedd373f.js"
+    "static/css/main.d8b8f9d3.css",
+    "static/js/main.572aa777.js"
   ]
 }
